@@ -1,7 +1,7 @@
 {
   "name": "cli-calculator",
   "version": "1.0.0",
-  "description": "",
+  "description": "Command line interface calculator",
   "homepage": "https://github.com/AlbinIzmaku/cli-calculator#readme",
   "bugs": {
     "url": "https://github.com/AlbinIzmaku/cli-calculator/issues"
@@ -11,10 +11,11 @@
     "url": "git+https://github.com/AlbinIzmaku/cli-calculator.git"
   },
   "license": "ISC",
-  "author": "",
+  "author": "Albin Izmaku",
   "type": "module",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
